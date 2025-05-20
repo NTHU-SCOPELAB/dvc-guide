@@ -20,10 +20,14 @@ dvc config cache.shared group
 dvc config cache.type symlink
 ```
 
-## 3.a 使用dvc抓取你的資料(如果還沒抓資料)
+## 4.a 使用dvc抓取你的資料(如果還沒抓資料)
+- https://dvc.org/doc/command-reference/get
+- https://dvc.org/doc/command-reference/get-url
+- https://dvc.org/doc/command-reference/import
+- https://dvc.org/doc/command-reference/import-url
 - https://dvc.org/doc/user-guide/integrations/huggingface
 
-## 3.b 將已抓下來的資料加入dvc的追蹤
+## 4.b 將已抓下來的資料加入dvc的追蹤
 ```bash
 dvc add 你的資料集
 ```
